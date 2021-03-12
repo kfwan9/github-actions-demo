@@ -12,12 +12,12 @@ jobs:
         build:
                 runs-on: ubuntu-latest
         steps:
-              - uses: actions/checkout@v2
+              -uses: actions/checkout@v2
 
-              - name: Run a one line script
+              -name: Run a one line script
                 run: echo Hello, World!
 
-              - name: Run mutiple lines script
+              -name: Run mutiple lines script
                 run: |
                         echo add other actions to build
                         echo test, and deploy your project
